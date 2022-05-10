@@ -5,4 +5,4 @@ Instruction to run:
 - Change the directory to the project base folder.
 - Run the command >$ node index.js, this would start a server.
 - Go to browser and type this url: http://localhost:8080.
-- To fetch six latest stories from https://time.com, invoke the this api: http://localhost:8080/get-latest-stories
+- To fetch six latest stories from https://time.com, call this api: http://localhost:8080/get-latest-stories
