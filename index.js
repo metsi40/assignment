@@ -5,7 +5,7 @@ const {htmlParser} = require("./html_parser");
 
 http.createServer(function (req, res) {
     if(req.url === "/"){
-        let content = `<p> Call this api to get 6 latest story from www.https://time.com/: localhost:8080/get-latest-stories or <a href="/get-latest-stories" target="_self"> click here</a>`
+        let content = `<p> Call this api to get 6 latest stories from www.https://time.com/: localhost:8080/get-latest-stories or <a href="/get-latest-stories" target="_self"> click here</a>`
         res.write(content);
         res.end(); 
     } else if(req.url === "/get-latest-stories"){
